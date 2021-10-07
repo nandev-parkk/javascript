@@ -1,3 +1,5 @@
+"use strict";
+
 // function
 // fundamental building block in the program
 // subprogram can be used multiple times
@@ -239,3 +241,24 @@ function calculate(command, a, b) {
 }
 
 calculate("*", 5, 10);
+
+// ellie's solution
+
+// function calculate(command, a, b) {
+//   switch (command) {
+//     case "add":
+//       return a + b;
+//     case "substract":
+//       return a - b;
+//     case "divide":
+//       return a / b;
+//     case "multiply":
+//       return a * b;
+//     case "remainder":
+//       return a % b;
+//     default:
+//       throw Error("unknown command");
+//   }
+// }
+
+// console.log(calculate("add", 5, 10));
